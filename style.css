@@ -1,0 +1,123 @@
+@media screen and (max-width: 1000px) {
+    .content,
+    aside {
+        width: 100%;
+        padding:0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #ffee93;
+}
+
+h3 {
+    color: #f5d782;
+}
+
+p {
+    text-indent: 3em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#letter-spacing {
+    letter-spacing: 4px;
+}
+
+.card {
+    box-shadow: 0 4px 10px 0 #5899c5 ;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.jumbotron {
+    font-size: 24px;
+    padding: 70px;
+    background-color: #80ffdb;
+    background-image: repeating-radial-gradient(#183d44, #bbf1fa);
+    text-align: center;
+    color: rgb(228, 194, 28);
+}
+
+nav {
+    background-color: gray;
+    padding: 5px;
+    position: sticky;
+    background-image: radial-gradient(#7d9e95, #bbf1fa );
+    top: 0;
+}
+
+
+
+nav a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color:  #ffc478;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    color: gold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 21px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transition: transfrom .2s;
+    border-radius: 5px;
+}
+
+.featured-image:hover {
+    transform: rotate(2deg);
+}
+
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.profile {
+    text-align: center;
+}
+
+.content {
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #f7e708;
+    font-family: fantasy;
+   background-image: radial-gradient( #7d9e95, #bbf1fa);
+}
